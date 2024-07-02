@@ -1,0 +1,15 @@
+.gradient-font {
+    background: linear-gradient(to right top, #ff0000, #1d0163);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;;
+}
+.c1{
+    height: 600px;
+    background: url("/static/stock/images/image2.jpg");
+}
+.btn1{
+    margin-top: 15px;
+    height: 40px;
+    width: 160px;
+    border-radius: 18px;
+}

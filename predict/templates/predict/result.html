@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stock Price Simulator</title>
+  </head>
+  <body>
+    <h1>Hello</h1>
+    <!-- {% if image_data %}
+        <h2>Simulation Results</h2>
+        <img src="data:image/png;base64,{{ image_data }}" alt="Stock Price Simulation">
+    {% endif %} -->
+    <!-- <img src="{% static 'stock/images/image3.jpg' %}" alt="Simulation Plot" />
+    {% block content %}
+    {{ ticker }}
+    {% endblock %}  -->
+    <div class="container">
+      <h2 class="text-center mt-3">Result</h2>
+      <div class="text-center mt-5">
+        <img
+          src="data:image/png;base64,{{ image_data }}"
+          alt="Stock Price Plot"
+        />
+      </div>
+    </div>
+  </body>
+</html>
